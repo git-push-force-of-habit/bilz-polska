@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+        <script>
+        var environment = '{"type":"prod"}';
+        var my_bilz_url = 'https://my.bilz.ag';
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Breitschrift-Regular.woff2">
+    <link rel="preload" as="font" type="font/woff" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Breitschrift-Regular.woff">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Breitschrift-Bold.woff2">
+    <link rel="preload" as="font" type="font/woff" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Breitschrift-Bold.woff">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Mittelschrift-Light.woff2">
+    <link rel="preload" as="font" type="font/woff" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Mittelschrift-Light.woff">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Mittelschrift-Medium.woff2">
+    <link rel="preload" as="font" type="font/woff" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Mittelschrift-Medium.woff">
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Engschrift-Bold.woff2">
+    <link rel="preload" as="font" type="font/woff" crossorigin="anonymous"
+          href="https://www.bilz.ag/wp-content/themes/bilz/assets/fonts/Halvar-Engschrift-Bold.woff">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/bilz/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/bilz/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/bilz/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/wp-content/themes/bilz/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/wp-content/themes/bilz/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/wp-content/themes/bilz/assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/wp-content/themes/bilz/assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>404 - Bilz Vibration Technology AG</title>
+<link rel="alternate" href="https://www.bilz.ag/error-404/" hreflang="de" />
+<link rel="alternate" href="https://www.bilz.ag/en/404/" hreflang="en" />
+<meta name="dc.title" content="404 - Bilz Vibration Technology AG">
+<meta name="dc.relation" content="https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png/">
+<meta name="dc.source" content="https://www.bilz.ag/">
+<meta name="dc.language" content="de_DE">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://www.bilz.ag/error-404/">
+<meta property="og:url" content="https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png/">
+<meta property="og:site_name" content="Bilz Vibration Technology AG">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:type" content="article">
+<meta property="og:title" content="404 - Bilz Vibration Technology AG">
+<meta property="og:image" content="https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png">
+<meta property="og:image:secure_url" content="https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png">
+<meta property="og:image:alt" content="">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="404 - Bilz Vibration Technology AG">
+<meta name="twitter:image" content="https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png">
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://www.bilz.ag/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bilz.ag%2Ferror-404%2F&#038;lang=de" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://www.bilz.ag/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.bilz.ag%2Ferror-404%2F&#038;format=xml&#038;lang=de" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<link rel='stylesheet' id='dropzone-css-css' href='https://www.bilz.ag/wp-content/themes/bilz/assets/lib/dropzone/dropzone.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css-css' href='https://www.bilz.ag/wp-content/themes/bilz/assets/css/main.css?ver=1.0.6' type='text/css' media='all' />
+<script type="text/javascript" src="https://www.bilz.ag/wp-content/plugins/lazysizes/js/build/lazysizes.unveilhooks-autoload.min.js?ver=5.2.2" id="lazysizes-js"></script>
+<link rel="https://api.w.org/" href="https://www.bilz.ag/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://www.bilz.ag/wp-json/wp/v2/pages/2362" />			<noscript><style>.lazyload { display: none !important; }</style></noscript>
+		 
+
+    <script>
+        var lang_vars = "{\"mehr_anzeigen\":\"Mehr anzeigen\",\"weniger_anzeigen\":\"Weniger anzeigen\",\"mehr_erfahren\":\"Mehr erfahren\",\"mehr_laden\":\"Mehr laden\",\"form_please_fill_out\":\"F\\u00fcllen Sie dieses Feld aus.\",\"form_please_fill_out_correct_email\":\"E-Mail Adresse nicht g\\u00fcltig.\",\"smartdesk_loeschen\":\"Wirklich diesen Account und die dazugeh\\u00f6rigen Daten restlos l\\u00f6schen? Das kann nicht r\\u00fcckg\\u00e4ngig gemacht werden.\",\"produkt_waehlen\":\"Produkt w\\u00e4hlen\",\"produkt\":\"Produkt\",\"optional\":\"(optional)\",\"wirklich_loeschen\":\"Wirklich l\\u00f6schen?\",\"datenblatt_anfrage\":\"Wurde zum Smartdesk hinzugef\\u00fcgt.\",\"anfrage_anfrage\":\"Wurde zu Ihren Anfragen hinzugef\\u00fcgt.\",\"months\":[\"Januar\",\"Februar\",\"M\\u00e4rz\",\"April\",\"Mai\",\"Juni\",\"Juli\",\"August\",\"September\",\"Oktober\",\"November\",\"Dezember\"]}";
+    </script>
+    
+        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NXHQ3ZS3');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+<body data-rsssl=1 class="wp-singular page-template-default page page-id-2362 wp-theme-bilz error404 pp404-std" data-id="2362">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NXHQ3ZS3"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+
+<div id="page-wrap" class=" header-reduziert">
+
+    
+    
+    <div class="header-elements">
+        <div id="page-header">
+
+            <div id="page-header-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-row align-items-center h-64">
+                                <div>
+                                    <a class="bildmarke" href="https://www.bilz.ag"><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 88 33" style="enable-background:new 0 0 88 33;" xml:space="preserve">
+<style type="text/css">
+	.color-fill-svg-logo-bilz{fill:#FFFFFF;}
+</style>
+<path id="LogoBilz" class="color-fill-svg-logo-bilz" d="M24.6,17.6c2.1-1.4,3.2-3.4,3.2-6v-0.5c0-2.4-0.9-4.3-2.8-5.6c-1.9-1.3-4.5-2-7.9-2H0v28.8h18
+	c3.3,0,5.9-0.7,7.8-2.2c1.9-1.4,2.9-3.4,2.9-5.9v-0.5c0-1.4-0.4-2.6-1.1-3.7C27,19,25.9,18.2,24.6,17.6z M6.6,9.3h10.6
+	c1.3,0,2.3,0.2,3,0.7c0.7,0.5,1,1.1,1,2v0.4c0,1.8-1.4,2.7-4.1,2.7H6.6V9.3z M22,23.7c0,0.9-0.4,1.6-1.1,2.1c-0.7,0.5-1.7,0.7-3,0.7
+	H6.6v-6h11.3c2.7,0,4.1,0.9,4.1,2.7V23.7L22,23.7z M31.8,32.3h6.3v-22h-6.3V32.3z M35,0.3c-1.2,0-2.1,0.3-2.8,1C31.4,2,31,2.9,31,4
+	c0,1.1,0.4,2,1.1,2.7c0.7,0.7,1.7,1,2.8,1c1.2,0,2.1-0.3,2.8-1c0.7-0.7,1.1-1.6,1.1-2.7c0-1.1-0.4-2-1.1-2.7
+	C37.1,0.7,36.2,0.3,35,0.3z M49,26.3c-0.4-0.3-0.5-0.8-0.5-1.5v-23h-6.3v24.1c0,2,0.6,3.6,1.9,4.7c1.3,1.1,3.1,1.7,5.4,1.7h3.1v-5.6
+	h-1.9C49.9,26.8,49.3,26.6,49,26.3z M55.5,15.8h14.2L55.5,26.9v5.4h22.9v-5.4H64.1l14.3-11.2v-5.4H55.5V15.8z M86.9,2.1
+	c-0.3-0.6-0.8-1-1.5-1.3c-0.6-0.3-1.4-0.5-2.2-0.5c-0.8,0-1.6,0.2-2.2,0.5c-0.6,0.3-1.1,0.7-1.5,1.3c-0.3,0.6-0.5,1.2-0.5,2v0.2
+	c0,0.7,0.2,1.4,0.5,1.9c0.3,0.6,0.8,1,1.5,1.3c0.6,0.3,1.4,0.5,2.2,0.5c0.8,0,1.6-0.2,2.2-0.5c0.6-0.3,1.1-0.7,1.5-1.3
+	c0.3-0.6,0.5-1.2,0.5-1.9V4C87.5,3.3,87.3,2.6,86.9,2.1z M86.4,4.2c0,0.9-0.3,1.5-0.8,2C85,6.7,84.3,7,83.3,7c-1,0-1.8-0.2-2.3-0.7
+	c-0.6-0.5-0.8-1.1-0.8-2V4c0-0.9,0.3-1.5,0.8-2c0.6-0.5,1.3-0.7,2.3-0.7c1,0,1.7,0.2,2.3,0.7c0.5,0.5,0.8,1.2,0.8,2V4.2z M83.9,2.4
+	h-2.4v3.4h1v-1h0.8l0.8,1h1.1V5.7l-0.8-1c0.3-0.1,0.5-0.2,0.6-0.4c0.1-0.2,0.2-0.4,0.2-0.7V3.5c0-0.3-0.1-0.6-0.3-0.8
+	C84.7,2.5,84.3,2.4,83.9,2.4z M84.2,3.6c0,0.1,0,0.2-0.1,0.3C84,4,83.8,4,83.7,4h-1.2V3.2h1.2c0.2,0,0.3,0,0.4,0.1
+	C84.1,3.3,84.2,3.4,84.2,3.6L84.2,3.6z"/>
+</svg>
+</a>
+                                </div>
+                                <div class="d-none d-xl-block no-print">
+                                    <nav class="navigation-main">
+                                        <ul class="main-menu">
+                                            <li id="menu-item-41" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41"><a href="/produkte">Produkte</a>
+<div class="sub-menu-holder"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li id="menu-item-259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="https://www.bilz.ag/produkte-schwingungstechnik-schwingungsisolierte-maschinenaufstellung/">Produkte Übersicht</a></li>
+	<li id="menu-item-260" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-260"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/">Isolierplatten</a></li>
+	<li id="menu-item-261" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-261"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/">Nivellierelemente</a></li>
+	<li id="menu-item-262" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-262"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/">Präzisionskeilschuhe</a></li>
+	<li id="menu-item-1663" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-1663"><a href="https://www.bilz.ag/produkte/horizontalelemente/">Horizontalelemente</a></li>
+	<li id="menu-item-264" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-264"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/">Luftfedern (Gummiluftfeder/­Membranluftfeder)</a></li>
+	<li id="menu-item-1627" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-1627"><a href="https://www.bilz.ag/produkte/mechanische-niveauregelsysteme/">Mechanische Niveauregelsysteme</a></li>
+	<li id="menu-item-1626" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-1626"><a href="https://www.bilz.ag/produkte/elektronische-niveauregelsysteme/">Elektronische Niveauregelsysteme</a></li>
+	<li id="menu-item-267" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-267"><a href="https://www.bilz.ag/produkte/aktive-schwingungsisolierung/">Aktive Schwingungsisolierung</a></li>
+	<li id="menu-item-1625" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-1625"><a href="https://www.bilz.ag/produkte/tischplattformen/">Tischplattformen</a></li>
+	<li id="menu-item-1697" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-1697"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/">Schwingungsisolierte Tische</a></li>
+</ul></div></div></div></div>
+</li>
+<li id="menu-item-2618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2618"><a href="https://www.bilz.ag/loesungen/">Lösungen</a>
+<div class="sub-menu-holder"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li id="menu-item-2621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://www.bilz.ag/loesungen/">Lösungen Übersicht</a></li>
+	<li id="menu-item-9158" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9158"><a href="https://www.bilz.ag/loesungen/fundamentisolierung/">Fundamentisolierung</a></li>
+	<li id="menu-item-9159" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9159"><a href="https://www.bilz.ag/loesungen/maschinenaufstellung/">Maschinenaufstellung</a></li>
+	<li id="menu-item-9160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9160"><a href="https://www.bilz.ag/loesungen/maschinenlagerung/">Maschinenlagerung</a></li>
+	<li id="menu-item-9161" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9161"><a href="https://www.bilz.ag/loesungen/schwingungsdaempfung/">Schwingungsdämpfung</a></li>
+	<li id="menu-item-9162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9162"><a href="https://www.bilz.ag/loesungen/quellenisolierung/">Quellenisolierung</a></li>
+	<li id="menu-item-2620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2620"><a href="https://www.bilz.ag/loesungen/anwendungen/">Anwendungen</a></li>
+</ul></div></div></div></div>
+</li>
+<li id="menu-item-2175" class="service menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="https://www.bilz.ag/service/">Service</a>
+<div class="sub-menu-holder"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li id="menu-item-2176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2176"><a href="https://www.bilz.ag/service/">Service Übersicht</a></li>
+	<li id="menu-item-3248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3248"><a href="https://www.bilz.ag/service/serviceleistungen-schwingungsmessung-schwingungsanalyse/">Serviceleistungen</a></li>
+	<li id="menu-item-3247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3247"><a href="https://www.bilz.ag/service/download-center/">Download Center</a></li>
+	<li id="menu-item-3246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3246"><a href="https://www.bilz.ag/service/glossar/">Glossar</a></li>
+	<li id="menu-item-7155" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7155"><a href="https://www.bilz.ag/service/faq/">FAQ</a></li>
+</ul></div></div></div></div>
+</li>
+<li id="menu-item-2819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2819"><a href="https://www.bilz.ag/unternehmen/">Unternehmen</a>
+<div class="sub-menu-holder"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li id="menu-item-2829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2829"><a href="https://www.bilz.ag/unternehmen/">Unternehmen Übersicht</a></li>
+	<li id="menu-item-2832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2832"><a href="https://www.bilz.ag/unternehmen/ueber-uns/">Über uns</a></li>
+	<li id="menu-item-2831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2831"><a href="https://www.bilz.ag/unternehmen/unsere-werte/">Unsere Werte</a></li>
+	<li id="menu-item-2830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2830"><a href="https://www.bilz.ag/unternehmen/jobs-karriere/">Jobs &#038; Karriere</a></li>
+</ul></div></div></div></div>
+</li>
+<li id="menu-item-2478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478"><a href="https://www.bilz.ag/aktuelles/">Aktuelles</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="flex-grow-1 no-print">
+                                    <div class="d-flex flex-row align-items-center justify-content-end h-64">
+                                        <div>
+                                            <a href="#" class="i-link suche no-action no-jump"><span>Suche</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="https://www.bilz.ag/kontakt/" class="i-link kontakt"><span>Kontakt</span></a>
+                                        </div>
+                                        <div class="d-none d-lg-block">
+                                            <a href="https://www.bilz.ag/smartdesk/" class="i-link smartdesk"><span>Smartdesk</span></a>
+                                        </div>
+                                        <div class="d-xl-none m-minus-r">
+                                            <div class="i-link fake-toggler"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none">
+                    <div id="page-header-nav-modules">
+                        <div class="header-nav-module service" data-class="service">
+                            <h6>Wie können wir <br>ihnen helfen?</h6>
+                            <a class="btn rounded filled green has-arrow-right" href="https://www.bilz.ag/service/">Kontaktieren Sie <br>unseren Service</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="page-header-toggler" class="d-xl-none">
+            <button type="button" id="burger" class="menu-toggler">
+                <div class="sr-only">Menü</div>
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+
+        <div id="page-header-mobile-navigation-overlay"></div>
+        <div id="page-header-mobile-navigation" class="level-0">
+            <div class="mobile-navigation-back"></div>
+            <div class="mobile-navigation-holder">
+                <nav class="navigation-main-mobile">
+                    <div class="ul-holder">
+                        <div class="ul-outer">
+                            <div class="ul">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <ul>
+                                                <li class="back"><span>Produkte</span></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41"><a href="/produkte">Produkte</a>
+<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259"><a href="https://www.bilz.ag/produkte-schwingungstechnik-schwingungsisolierte-maschinenaufstellung/">Produkte Übersicht</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-260"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/">Isolierplatten</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2123" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2123"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/">Übersicht</a></li>
+		<li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-439"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b0/">Isolierplatte Plattentyp B0</a></li>
+		<li id="menu-item-440" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-440"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/isolierplatte-plattentyp-b6/">Isolierplatte Plattentyp B6</a></li>
+		<li id="menu-item-441" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-441"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b4/">Isolierplatte Plattentyp B4</a></li>
+		<li id="menu-item-438" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-438"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b50/">Isolierplatte Plattentyp B50</a></li>
+		<li id="menu-item-437" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-437"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b5/">Isolierplatte Plattentyp B5</a></li>
+		<li id="menu-item-436" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-436"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b32/">Isolierplatte Plattentyp B32</a></li>
+		<li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-435"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b32w/">Isolierplatte Plattentyp B32 W</a></li>
+		<li id="menu-item-433" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-433"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b30w/">Isolierplatte Plattentyp B30W</a></li>
+		<li id="menu-item-434" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-434"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b30/">Isolierplatte Plattentyp B30</a></li>
+		<li id="menu-item-432" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-432"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/plattentyp-b13w/">Isolierplatte Plattentyp B13W</a></li>
+		<li id="menu-item-431" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-431"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/antirutschplatten-plattentyp-bs1-bs-bn-br7-b8/">Antirutschplatten zur mechanischen Nivellierung</a></li>
+		<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-430"><a href="https://www.bilz.ag/produkte/isolierplatten-schwingungsdaempfung/isolierplattensaetze/">Isolierplattensätze zur Schwingungsisolierung</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-261"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/">Nivellierelemente</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2124" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2124"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/">Übersicht</a></li>
+		<li id="menu-item-2125" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2125"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/typenreihe-bnsh-bnsha/">Nivellierelement Typenreihe BNSH / BNSHA</a></li>
+		<li id="menu-item-2126" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2126"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/typenreihe-bnv-bnvs/">Nivellierelement Typenreihe BNV / BNVS</a></li>
+		<li id="menu-item-2127" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2127"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/typenreihe-bnr-bnrs/">Nivellierelement Typenreihe BNR / BNRS</a></li>
+		<li id="menu-item-2128" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2128"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/typenreihe-bnrv-bnrsv/">Nivellierelement Typenreihe BNRV / BNRSV</a></li>
+		<li id="menu-item-2129" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2129"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/typenreihe-bfe/">Nivellierelement Typenreihe BFE</a></li>
+		<li id="menu-item-2130" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2130"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/typenreihe-gma/">Nivellierelement Typenreihe GMA</a></li>
+		<li id="menu-item-2131" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2131"><a href="https://www.bilz.ag/produkte/nivellierelemente-maschinenfuesse-schwingungsisolierte-maschinenaufstellung/typenreihe-bnl/">Nivellierelement Typenreihe BNL</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-262"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/">Präzisionskeilschuhe</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2132"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/">Übersicht</a></li>
+		<li id="menu-item-2133" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2133"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pk/">Präzisionskeilschuh Typenreihe PK</a></li>
+		<li id="menu-item-2134" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2134"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pka/">Präzisionskeilschuh Typenreihe PKA</a></li>
+		<li id="menu-item-2135" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2135"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pkd/">Präzisionskeilschuh Typenreihe PKD</a></li>
+		<li id="menu-item-2136" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2136"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pkak/">Präzisionskeilschuh Typenreihe PKAK</a></li>
+		<li id="menu-item-2137" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2137"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pkdk/">Präzisionskeilschuh Typenreihe PKDK</a></li>
+		<li id="menu-item-2138" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2138"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pka-al/">Präzisionskeilschuh Typenreihe PKA-AL</a></li>
+		<li id="menu-item-2139" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2139"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pkd-al/">Präzisionskeilschuh Typenreihe PKD-AL</a></li>
+		<li id="menu-item-2140" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2140"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pkak-al/">Präzisionskeilschuh Typenreihe PKAK-AL</a></li>
+		<li id="menu-item-2141" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2141"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/typenreihe-pkdk-al/">Präzisionskeilschuh Typenreihe PKDK-AL</a></li>
+		<li id="menu-item-8681" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-8681"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/praezisionskeilschuh-typenreihe-pka-va/">Präzisionskeilschuh Typenreihe PKA-VA</a></li>
+		<li id="menu-item-8682" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-8682"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/praezisionskeilschuh-typenreihe-pkd-va/">Präzisionskeilschuh Typenreihe PKD-VA</a></li>
+		<li id="menu-item-2142" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2142"><a href="https://www.bilz.ag/produkte/praezisionskeilschuhe-maschinenfuss-schwingungsdaempfer/zubehoer-praezisionskeilschuhe/">Zubehör Präzisionskeilschuhe</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-1663"><a href="https://www.bilz.ag/produkte/horizontalelemente/">Horizontalelemente</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-264"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/">Luftfedern (Gummiluftfeder/­Membranluftfeder)</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2143" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2143"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/">Übersicht</a></li>
+		<li id="menu-item-2144" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2144"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/faebi/">Gummiluftfeder Isolator Typenreihe FAEBI®</a></li>
+		<li id="menu-item-2145" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2145"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/typenreihe-faebi-in-edelstahl/">Gummiluftfeder Isolator Typenreihe FAEBI® in Edelstahl</a></li>
+		<li id="menu-item-2146" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2146"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/typenreihe-faebi-hd/">Gummiluftfeder Isolator Typenreihe FAEBI®-HD</a></li>
+		<li id="menu-item-2147" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2147"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/typenreihe-biair-ed-al-aus-eloxiertem-aluminium/">Membranluftfeder Isolator Typenreihe BiAir®-ED-AL</a></li>
+		<li id="menu-item-2148" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2148"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/typenreihe-biair-ed-aus-aluminiumguss/">Membranluftfeder Isolator Typenreihe BiAir®-ED</a></li>
+		<li id="menu-item-2149" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2149"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/typenreihe-biair-ed-he-aus-aluminiumguss/">Membranluftfeder Isolator Typenreihe BiAir®-ED-HE</a></li>
+		<li id="menu-item-2150" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2150"><a href="https://www.bilz.ag/produkte/luftfedern-schwingungsisolierung/typenreihe-biair-ed-he-max-aus-aluminiumguss/">Membranluftfeder Isolator Typenreihe BiAir®-ED-HE MAX</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-1627"><a href="https://www.bilz.ag/produkte/mechanische-niveauregelsysteme/">Mechanische Niveauregelsysteme</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2153" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2153"><a href="https://www.bilz.ag/produkte/mechanische-niveauregelsysteme/">Übersicht</a></li>
+		<li id="menu-item-2151" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2151"><a href="https://www.bilz.ag/produkte/mechanische-niveauregelsysteme/mechanisch-pneumatische-niveauregelung-mpn-lcv/">Mechanisch pneumatische Niveauregelung MPN-LCV</a></li>
+		<li id="menu-item-2152" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2152"><a href="https://www.bilz.ag/produkte/mechanische-niveauregelsysteme/mechanisch-pneumatische-niveauregelung-mpn-pvm/">Mechanisch pneumatische Niveauregelung MPN-PVM</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-1626"><a href="https://www.bilz.ag/produkte/elektronische-niveauregelsysteme/">Elektronische Niveauregelsysteme</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2154" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2154"><a href="https://www.bilz.ag/produkte/elektronische-niveauregelsysteme/">Übersicht</a></li>
+		<li id="menu-item-2155" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2155"><a href="https://www.bilz.ag/produkte/elektronische-niveauregelsysteme/electronic-pneumatic-position-control-eppc/">Electronic Pneumatic Position Control EPPC™</a></li>
+		<li id="menu-item-8442" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-8442"><a href="https://www.bilz.ag/produkte/elektronische-niveauregelsysteme/elektronisch-pneumatische-niveauregelung-epn/">Elektronisch Pneumatische Niveauregelung EPN</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-267"><a href="https://www.bilz.ag/produkte/aktive-schwingungsisolierung/">Aktive Schwingungsisolierung</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2156" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2156"><a href="https://www.bilz.ag/produkte/aktive-schwingungsisolierung/">Übersicht</a></li>
+		<li id="menu-item-2157" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2157"><a href="https://www.bilz.ag/produkte/aktive-schwingungsisolierung/aktive-schwingungsisolierung-ais-active-isolation-system/">Aktive Schwingungsisolierung – AIS™ Active Isolation System</a></li>
+		<li id="menu-item-2158" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2158"><a href="https://www.bilz.ag/produkte/aktive-schwingungsisolierung/aktive-schwingungsisolierung-e-stable-mini/">Aktive Schwingungsisolierung – e-Stable mini</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-1625"><a href="https://www.bilz.ag/produkte/tischplattformen/">Tischplattformen</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2159" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2159"><a href="https://www.bilz.ag/produkte/tischplattformen/">Übersicht</a></li>
+		<li id="menu-item-2160" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2160"><a href="https://www.bilz.ag/produkte/tischplattformen/typ-vitap-f-passive-tischplattform/">Tischplattform VITAP®-F</a></li>
+		<li id="menu-item-2161" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2161"><a href="https://www.bilz.ag/produkte/tischplattformen/typ-vitap-fp-passive-tischplattform/">Tischplattform VITAP®-FP</a></li>
+		<li id="menu-item-2162" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2162"><a href="https://www.bilz.ag/produkte/tischplattformen/typ-vitap-bm-passive-tischplattform/">Tischplattform VITAP®-BM</a></li>
+		<li id="menu-item-2163" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2163"><a href="https://www.bilz.ag/produkte/tischplattformen/typ-e-stable-mini-aktive-tischplattform/">Typ e-Stable mini – aktive Tischplattform</a></li>
+	</ul></div></div></div></div>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-has-children menu-item-1697"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/">Schwingungsisolierte Tische</a>
+	<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+		<li id="menu-item-2164" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2164"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/">Übersicht</a></li>
+		<li id="menu-item-2165" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2165"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/labortisch-lth-hartgestein-mit-biair-ed/">Labortisch LTH (Hartgestein) mit BiAir®-ED</a></li>
+		<li id="menu-item-2166" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2166"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/labortisch-lth-hartgestein-mit-biair-oc/">Labortisch LTH (Hartgestein) mit BiAir®-OC</a></li>
+		<li id="menu-item-2167" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2167"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/labortisch-lth-hartgestein-mit-biair-pas/">Labortisch LTH (Hartgestein) mit BiAir®-PAS</a></li>
+		<li id="menu-item-2168" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2168"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/labortisch-lto-optische-platte-mit-biair-ed/">Labortisch LTO (optische Platte) mit BiAir®-ED</a></li>
+		<li id="menu-item-2169" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2169"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/labortisch-lto-optische-platte-mit-biair-oc/">Labortisch LTO (optische Platte) mit BiAir®-OC</a></li>
+		<li id="menu-item-2170" class="menu-item menu-item-type-post_type menu-item-object-produkte menu-item-2170"><a href="https://www.bilz.ag/produkte/schwingungsisolierte-tische/labortisch-lto-optische-platte-mit-biair-pas/">Labortisch LTO (optische Platte) mit BiAir®-PAS</a></li>
+	</ul></div></div></div></div>
+</li>
+</ul></div></div></div></div>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2618"><a href="https://www.bilz.ag/loesungen/">Lösungen</a>
+<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2621"><a href="https://www.bilz.ag/loesungen/">Lösungen Übersicht</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9158"><a href="https://www.bilz.ag/loesungen/fundamentisolierung/">Fundamentisolierung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9159"><a href="https://www.bilz.ag/loesungen/maschinenaufstellung/">Maschinenaufstellung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9160"><a href="https://www.bilz.ag/loesungen/maschinenlagerung/">Maschinenlagerung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9161"><a href="https://www.bilz.ag/loesungen/schwingungsdaempfung/">Schwingungsdämpfung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9162"><a href="https://www.bilz.ag/loesungen/quellenisolierung/">Quellenisolierung</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2620"><a href="https://www.bilz.ag/loesungen/anwendungen/">Anwendungen</a></li>
+</ul></div></div></div></div>
+</li>
+<li class="service menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2175"><a href="https://www.bilz.ag/service/">Service</a>
+<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2176"><a href="https://www.bilz.ag/service/">Service Übersicht</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3248"><a href="https://www.bilz.ag/service/serviceleistungen-schwingungsmessung-schwingungsanalyse/">Serviceleistungen</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3247"><a href="https://www.bilz.ag/service/download-center/">Download Center</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3246"><a href="https://www.bilz.ag/service/glossar/">Glossar</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7155"><a href="https://www.bilz.ag/service/faq/">FAQ</a></li>
+</ul></div></div></div></div>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2819"><a href="https://www.bilz.ag/unternehmen/">Unternehmen</a>
+<div class="ul"><div class="container"><div class="row"><div class="col-12"><ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2829"><a href="https://www.bilz.ag/unternehmen/">Unternehmen Übersicht</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2832"><a href="https://www.bilz.ag/unternehmen/ueber-uns/">Über uns</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2831"><a href="https://www.bilz.ag/unternehmen/unsere-werte/">Unsere Werte</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2830"><a href="https://www.bilz.ag/unternehmen/jobs-karriere/">Jobs &#038; Karriere</a></li>
+</ul></div></div></div></div>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2478"><a href="https://www.bilz.ag/aktuelles/">Aktuelles</a></li>
+                                            </ul>
+                                            <div class="service-nav">
+                                                <div>
+                                                    <a href="#" class="i-link suche no-action no-jump"><span>Suche</span></a>
+                                                </div>
+                                                <div>
+                                                    <a href="https://www.bilz.ag/kontakt/" class="i-link kontakt"><span>Kontakt</span></a>
+                                                </div>
+                                                <div>
+                                                    <a href="https://www.bilz.ag/smartdesk/" class="i-link smartdesk"><span>Smartdesk</span></a>
+                                                </div>
+                                                <div>
+                                                                                                        <a href="https://www.bilz.ag/en/404/" class="i-link language"><span>English</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="page-content">
+
+
+<header class="page-content-header reduziert">
+
+    
+    <div class="page-content-header-rel">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-12 col-lg-10 col-xl-8 ">
+                                <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="https://www.bilz.ag">Start Bilz AG</a></li>
+            </ol>
+                            <h1 class="header-h2">404</h1>
+                                                            <div class="header-h1">
+                                    Diese Seite konnte leider nicht gefunden werden.
+<div style="margin-top: 32px;">
+<a class="btn rounded filled green has-arrow-right" href="https://www.bilz.ag/">Zur Startseite</a>
+</div>                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content-header-bg">
+            </div>
+
+        
+</header>
+
+    
+    
+    <article>
+        <main>
+            <section data-container-class="" class="page-container ">
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <article>
+                                            <section class="page-abschnitt">
+
+            <div class="page-inhalt type-text">
+
+    <div class="row">
+    <div class="col-12 col-lg-10 col-xl-8">
+            </div>
+</div>
+</div>    
+</section>                                                        </article>
+            </div>
+        </div>
+    </div>
+    
+</section>        </main>
+    </article>
+
+</div>
+
+<div class="footer-elements no-print">
+    <div id="page-footer-social-share">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="flexer">
+                    <div class="print-outer">
+                        <div class="inner">
+                            <div class="label">Drucken</div>
+                            <div class="print click-action-print"></div>
+                        </div>
+                    </div>
+                    <div class="label">Teilen</div>
+                    <div class="share-icons">
+                        <div class="inner">
+                                                        <a href="https://www.xing.com/app/user?op=share;url=https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png" target="_blank" class="xing" rel="nofollow"></a>
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png" target="_blank" class="linkedin" rel="nofollow"></a>
+                            <a href="mailto:?body=https://www.bilz.ag/wp-content/uploads/2023/07/Bilz-social-logo.png" target="_blank" class="mail"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="page-footer" class="no-print">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="page-footer-social-follow">
+                    <div class="label">Folgen Sie uns auf</div>
+                    <div class="social-icons">
+                        <a href="https://de.linkedin.com/company/bilz-vibration-technology-ag" target="_blank" class="linkedin"></a>
+                        <a href="https://www.xing.com/pages/bilzvibrationtechnologyag" target="_blank" class="xing"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="page-footer-teaser">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="spacer">
+                                
+                                                                    <a class="modul-teaser" href="https://www.bilz.ag/news/wuerdigung-langjaehriger-betriebszugehoerigkeit/">
+                                        <h6>Aktuelle News</h6>
+                                        <h4>Würdigung langjähriger Betriebszugehörigkeit</h4>
+                                        <p>Die Bilz Vibration Technology AG ehrt drei Jubilare für jahrzehntelange Treue, Engagement und wertvolle Beiträge zum Unternehmenserfolg.</p>
+                                        <div class="link-arrow">Mehr erfahren</div>
+                                    </a>
+                                    <a href="https://www.bilz.ag/aktuelles/#news" class="btn rounded outline green">Alle News anzeigen</a>
+                                                                                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                                                            <div class="spacer">
+                                    <a class="modul-teaser" href="https://www.bilz.ag/events/sajam-tehnike/">
+                                        <h6>Messetermine</h6>
+                                        <h4>SAJAM TEHNIKE, Belgrad/Serbien, 19. - 22. Mai 2026</h4>
+                                        <p>Internationale Technikmesse</p>
+                                        <div class="link-arrow">Mehr erfahren</div>
+                                    </a>
+                                    <a href="https://www.bilz.ag/aktuelles/#messetermine-deutschland" class="btn rounded outline green">Alle Messetermine</a>
+                                </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page-footer-kontakt">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="adresse">
+                        <h6>Kontakt</h6>
+<p><strong>Bilz Vibration Technology AG</strong><br />
+Böblinger Straße 25<br />
+D-71229 Leonberg</p>
+                    </div>
+                    <div class="kontakt">
+                        <a href="tel:+49715230910" data-prefix="T" class="no-hover">+49 7152 30 91-0</a>
+                        <a href="tel:+497152309110" data-prefix="F" class="no-hover">+49 7152 30 91-10</a>
+                        <a href="mailto:info@bilz.ag" data-prefix="M">info@bilz.ag</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="d-none d-md-flex col-md-6">
+                            <nav id="footer-menu-main">
+                                <ul>
+                                    <li id="menu-item-4605" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4605"><a href="https://www.bilz.ag/produkte-schwingungstechnik-schwingungsisolierte-maschinenaufstellung/">Produkte</a></li>
+<li id="menu-item-4606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4606"><a href="https://www.bilz.ag/loesungen/">Lösungen</a></li>
+<li id="menu-item-4607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4607"><a href="https://www.bilz.ag/service/">Service</a></li>
+<li id="menu-item-4608" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4608"><a href="https://www.bilz.ag/unternehmen/">Unternehmen</a></li>
+<li id="menu-item-4609" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4609"><a href="https://www.bilz.ag/kontakt/">Kontakt</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-6">
+                            <nav id="footer-menu-law">
+                                <ul>
+                                    <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://www.bilz.ag/impressum/">Impressum</a></li>
+<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-35"><a rel="privacy-policy" href="https://www.bilz.ag/datenschutzerklaerung/">Datenschutz</a></li>
+<li id="menu-item-5895" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5895"><a href="https://www.bilz.ag/service/download-center/#agb">AGB</a></li>
+<li id="menu-item-4910" class="no-action cookie-script-opener menu-item menu-item-type-custom menu-item-object-custom menu-item-4910"><a href="#">Cookie-Einstellungen</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="page-footer-copyright" class="bg-color-blue-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="marke">
+                        <div class="bildmarke d-block d-lg-inline-block">
+                            <svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 88 33" style="enable-background:new 0 0 88 33;" xml:space="preserve">
+<style type="text/css">
+	.color-fill-svg-logo-bilz{fill:#FFFFFF;}
+</style>
+<path id="LogoBilz" class="color-fill-svg-logo-bilz" d="M24.6,17.6c2.1-1.4,3.2-3.4,3.2-6v-0.5c0-2.4-0.9-4.3-2.8-5.6c-1.9-1.3-4.5-2-7.9-2H0v28.8h18
+	c3.3,0,5.9-0.7,7.8-2.2c1.9-1.4,2.9-3.4,2.9-5.9v-0.5c0-1.4-0.4-2.6-1.1-3.7C27,19,25.9,18.2,24.6,17.6z M6.6,9.3h10.6
+	c1.3,0,2.3,0.2,3,0.7c0.7,0.5,1,1.1,1,2v0.4c0,1.8-1.4,2.7-4.1,2.7H6.6V9.3z M22,23.7c0,0.9-0.4,1.6-1.1,2.1c-0.7,0.5-1.7,0.7-3,0.7
+	H6.6v-6h11.3c2.7,0,4.1,0.9,4.1,2.7V23.7L22,23.7z M31.8,32.3h6.3v-22h-6.3V32.3z M35,0.3c-1.2,0-2.1,0.3-2.8,1C31.4,2,31,2.9,31,4
+	c0,1.1,0.4,2,1.1,2.7c0.7,0.7,1.7,1,2.8,1c1.2,0,2.1-0.3,2.8-1c0.7-0.7,1.1-1.6,1.1-2.7c0-1.1-0.4-2-1.1-2.7
+	C37.1,0.7,36.2,0.3,35,0.3z M49,26.3c-0.4-0.3-0.5-0.8-0.5-1.5v-23h-6.3v24.1c0,2,0.6,3.6,1.9,4.7c1.3,1.1,3.1,1.7,5.4,1.7h3.1v-5.6
+	h-1.9C49.9,26.8,49.3,26.6,49,26.3z M55.5,15.8h14.2L55.5,26.9v5.4h22.9v-5.4H64.1l14.3-11.2v-5.4H55.5V15.8z M86.9,2.1
+	c-0.3-0.6-0.8-1-1.5-1.3c-0.6-0.3-1.4-0.5-2.2-0.5c-0.8,0-1.6,0.2-2.2,0.5c-0.6,0.3-1.1,0.7-1.5,1.3c-0.3,0.6-0.5,1.2-0.5,2v0.2
+	c0,0.7,0.2,1.4,0.5,1.9c0.3,0.6,0.8,1,1.5,1.3c0.6,0.3,1.4,0.5,2.2,0.5c0.8,0,1.6-0.2,2.2-0.5c0.6-0.3,1.1-0.7,1.5-1.3
+	c0.3-0.6,0.5-1.2,0.5-1.9V4C87.5,3.3,87.3,2.6,86.9,2.1z M86.4,4.2c0,0.9-0.3,1.5-0.8,2C85,6.7,84.3,7,83.3,7c-1,0-1.8-0.2-2.3-0.7
+	c-0.6-0.5-0.8-1.1-0.8-2V4c0-0.9,0.3-1.5,0.8-2c0.6-0.5,1.3-0.7,2.3-0.7c1,0,1.7,0.2,2.3,0.7c0.5,0.5,0.8,1.2,0.8,2V4.2z M83.9,2.4
+	h-2.4v3.4h1v-1h0.8l0.8,1h1.1V5.7l-0.8-1c0.3-0.1,0.5-0.2,0.6-0.4c0.1-0.2,0.2-0.4,0.2-0.7V3.5c0-0.3-0.1-0.6-0.3-0.8
+	C84.7,2.5,84.3,2.4,83.9,2.4z M84.2,3.6c0,0.1,0,0.2-0.1,0.3C84,4,83.8,4,83.7,4h-1.2V3.2h1.2c0.2,0,0.3,0,0.4,0.1
+	C84.1,3.3,84.2,3.4,84.2,3.6L84.2,3.6z"/>
+</svg>
+                        </div>
+                        <div class="wortmarke d-block d-lg-inline-block">
+                            <span class="d-block d-sm-inline">Ihr Experte für </span><span class="d-block d-sm-inline">Schwingungsisolierung</span>                                                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="copyright text-lg-end text-xl-start"><span class="d-block d-sm-inline">&copy; 2026 </span><span class="d-block d-sm-inline">Bilz Vibration Technology AG</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+
+<div id="page-sidebar">
+
+    <div class="page-sidebar-icons">
+        <ul>
+            <li class="menu-sidebar">
+                <a href="#" rel="nofollow" class="no-action contact" data-class="contact"></a>
+            </li>
+            <li class="menu-sidebar">
+                <a href="#" rel="nofollow" class="no-action language" data-class="language"></a>
+            </li>
+            <li class="menu-sidebar">
+                <a href="#" rel="nofollow" class="no-action quicklinks" data-class="quicklinks"></a>
+            </li>
+                    </ul>
+    </div>
+    <div class="page-sidebar-functions">
+
+        <div id="sidebar-overlay-kontakt" class="page-sidebar-function contact">
+
+            <div class="closer">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <h4>Kontakt</h4>
+<h6>Telefon</h6>
+<p><a class="btn rounded filled green" href="tel:+49 7152 30 91-0">+49 7152 30 91-0</a></p>
+<h6>E-Mail</h6>
+<p><a class="btn rounded filled green" href="mailto:info@bilz.ag">info@bilz.ag</a></p>
+<h6>Adresse</h6>
+<p class="p1"><span class="s1">Bilz Vibration Technology AG<br />
+</span><span class="s1">Böblinger Straße 25<br />
+</span><span class="s1">D-71229 Leonberg</span></p>
+<p><a class="btn rounded outline green" href="https://goo.gl/maps/jLZ5jJgKQUiGGFon7" target="_blank" rel="noopener">Google Maps</a></p>
+
+            </div>
+
+        </div>
+
+        <div id="sidebar-overlay-schnellzugriff" class="page-sidebar-function quicklinks">
+
+            <div class="closer">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <h4>Schnellzugriff</h4>
+<p class="p1"><span class="s1"><a href="https://www.bilz.ag/kontakt/https://www.bilz.ag/kontakt/#vertriebspartner">Vetriebspartner finden</a><br />
+</span><span class="s1"><a href="https://www.bilz.ag/service/download-center/">Technische Datenblätter</a><br />
+</span><span class="s1"><a href="https://www.bilz.ag/unternehmen/jobs-karriere/#karriere">Offene Stellen</a><br />
+</span><a href="https://www.bilz.ag/unternehmen/ueber-uns/#unsere-kunden"><span class="s1">Unsere Kunden</span></a></p>
+
+            </div>
+
+        </div>
+
+        <div id="sidebar-overlay-language" class="page-sidebar-function language">
+
+            <div class="closer">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="content">
+
+                <h4>Sprache</h4>
+                <ul>
+                                            <li class="active"><a href="https://www.bilz.ag/error-404/">Deutsch</a></li>
+                                            <li><a href="https://www.bilz.ag/en/404/">English</a></li>
+                                    </ul>
+
+            </div>
+
+        </div>
+
+        <div>
+
+        </div>
+
+        
+    </div>
+</div>
+
+<div id="search-overlay">
+
+    <div class="closer">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="search-input">
+        <form>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-8">
+                        <div class="form-row has-search-icon"><div><input autocomplete="off" type="text" id="suchbegriff"  placeholder="Was suchen Sie?" class="rounded-input has-search-icon"></div></div>
+                        <div class="count-ergebnisse"><div class="no-results">keine Suchergebnisse</div><div class="count-results"><span class="count">1</span> <span class="wording"><span class="singular">Suchergebnis</span><span class="plural">Suchergebnisse</span></span></div></div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="search-result-outer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-8">
+                    <div class="search-result-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="up"><div class="up-indicator"></div></div>
+
+<div id="breakpoint-indicator">
+    <div class="d-block d-sm-none">XS</div>
+    <div class="d-none d-sm-block d-md-none">SM</div>
+    <div class="d-none d-md-block d-lg-none">MD</div>
+    <div class="d-none d-lg-block d-xl-none">LG</div>
+    <div class="d-none d-xl-block d-xxl-none">XL</div>
+    <div class="d-none d-xxl-block">XXL</div>
+</div>
+
+    
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bilz/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script type="text/javascript" id="pll_cookie_script-js-after">
+/* <![CDATA[ */
+(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=de; expires=" + expirationDate.toUTCString() + "; path=/; secure; SameSite=Lax";
+			}());
+
+//# sourceURL=pll_cookie_script-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://www.bilz.ag/wp-content/themes/bilz/assets/js/jquery-3.6.0.min.js?ver=3.6.0" id="jquery-js-js"></script>
+<script type="text/javascript" src="https://www.bilz.ag/wp-content/themes/bilz/assets/js/jquery.scrolllock.min.js?ver=1.0.2" id="scrollock-js-js"></script>
+<script type="text/javascript" src="https://www.bilz.ag/wp-content/themes/bilz/assets/js/ofi.min.js?ver=3.2.4" id="ofi-js-js"></script>
+<script type="text/javascript" src="https://www.bilz.ag/wp-content/themes/bilz/assets/js/flickity.pkgd.min.js?ver=2.3.0" id="flickity-js-js"></script>
+<script type="text/javascript" src="https://www.bilz.ag/wp-content/themes/bilz/assets/js/picturefill.min.js?ver=3.0.2" id="picturefill-js-js"></script>
+<script type="text/javascript" src="https://www.bilz.ag/wp-content/themes/bilz/assets/js/bilz.js?ver=1.1.17" id="main-js-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://www.bilz.ag/wp-includes/js/wp-emoji-release.min.js?ver=eab2ae64e8ab1333dbc40578cc159401"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://www.bilz.ag/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+</body>
+</html>
