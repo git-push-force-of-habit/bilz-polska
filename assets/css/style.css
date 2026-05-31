@@ -1415,6 +1415,41 @@ h4 { font-size: 1rem; }
   color: var(--color-green);
 }
 
+/* ===== Poradnik / słowniczek (akordeony) ===== */
+.glossary { max-width: 860px; margin: 0 auto; }
+.glossary-item { border-bottom: 1px solid var(--color-gray-light); }
+.glossary-item summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 20px 48px 20px 0;
+  position: relative;
+  font-family: var(--font-condensed);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: var(--color-dark);
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+.glossary-item summary::-webkit-details-marker { display: none; }
+.glossary-item summary::after {
+  content: "+";
+  position: absolute;
+  right: 6px;
+  top: 18px;
+  font-size: 1.7rem;
+  line-height: 1;
+  color: var(--color-green);
+  font-weight: 400;
+}
+.glossary-item[open] summary::after { content: "\2212"; }
+.glossary-item summary:hover { color: var(--color-green); }
+.glossary-content { padding: 0 0 24px; }
+.glossary-content p { margin-bottom: 12px; line-height: 1.7; }
+.glossary-content ul { margin: 0 0 12px 22px; }
+.glossary-content li { margin-bottom: 6px; line-height: 1.6; }
+.glossary-content .gloss-sub { color: var(--color-dark); }
+
 /* ===== CONTACT PAGE ===== */
 .contact-page-grid {
   display: grid;
