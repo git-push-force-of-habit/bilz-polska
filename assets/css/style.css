@@ -114,10 +114,11 @@ h4 { font-size: 1rem; }
 
 /* ===== HEADER ===== */
 .site-header {
-  /* ciemniejszy bazowy kolor zrekompensowany przezroczystością + rozmyciem tła (frosted glass) */
-  background: rgba(0, 26, 34, 0.72);
-  -webkit-backdrop-filter: blur(12px) saturate(120%);
-  backdrop-filter: blur(12px) saturate(120%);
+  /* frosted glass: brightness(<1) PRZYCIEMNIA tło pod paskiem (nigdy jaśniejszy niż tło),
+     a półprzezroczysty ciemny tint + blur daje efekt matowego szkła */
+  background: rgba(0, 24, 31, 0.78);
+  -webkit-backdrop-filter: blur(12px) brightness(0.5) saturate(115%);
+  backdrop-filter: blur(12px) brightness(0.5) saturate(115%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   position: sticky;
   top: 0;
