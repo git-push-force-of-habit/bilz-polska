@@ -1459,9 +1459,19 @@ h4 { font-size: 1rem; }
 .glossary-item summary:hover { color: var(--color-green); }
 .glossary-content { padding: 0 0 24px; }
 .glossary-content p { margin-bottom: 12px; line-height: 1.7; }
-.glossary-content ul { margin: 0 0 12px 22px; }
+.glossary-content p:last-child { margin-bottom: 0; }
+.glossary-content ul { margin: 0 0 0 22px; }
 .glossary-content li { margin-bottom: 6px; line-height: 1.6; }
+.glossary-content li:last-child { margin-bottom: 0; }
 .glossary-content .gloss-sub { color: var(--color-dark); }
+/* rozwinięta treść na jasnozielonym tle (jak "highlight" realizacji) */
+.glossary-item[open] .glossary-content {
+  background: var(--color-green-bg);
+  border-left: 4px solid var(--color-green);
+  border-radius: 0 8px 8px 0;
+  padding: 18px 24px;
+  margin: 4px 0 18px;
+}
 
 /* ===== Tabela danych technicznych (podstrony produktów) ===== */
 .spec-table {
