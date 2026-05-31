@@ -114,11 +114,22 @@ h4 { font-size: 1rem; }
 
 /* ===== HEADER ===== */
 .site-header {
-  background: var(--color-dark);
+  /* ciemniejszy bazowy kolor zrekompensowany przezroczystością + rozmyciem tła (frosted glass) */
+  background: rgba(0, 26, 34, 0.72);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
+  backdrop-filter: blur(12px) saturate(120%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   position: sticky;
   top: 0;
   z-index: 1000;
   height: var(--header-height);
+}
+
+/* zapas dla przeglądarek bez backdrop-filter — wtedy mocniej kryjące tło */
+@supports not ((-webkit-backdrop-filter: blur(1px)) or (backdrop-filter: blur(1px))) {
+  .site-header {
+    background: var(--color-dark);
+  }
 }
 
 .header-inner {
