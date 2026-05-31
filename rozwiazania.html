@@ -45,13 +45,18 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <style>
-      /* podgląd -nowe: pełne, nieprzycięte zdjęcie pionowe maszyny w sekcji metrologii (#5) */
+      /* pełne, nieprzycięte zdjęcie pionowe maszyny w sekcji metrologii (#5) */
       #tlumienie-drgan .solution-detail-images img.foto-pelna {
         max-height: 560px;
         width: auto;
         max-width: 100%;
         object-fit: contain;
         align-self: center;
+      }
+      /* usunięcie białego tła z renderów 3D (wizualizacje z1-z4) —
+         multiply zlewa biel z jasnym tłem strony (#f5f5f5), grafika zostaje */
+      img[src*="wizualizacje/"] {
+        mix-blend-mode: multiply;
       }
     </style>
 </head>
