@@ -57,14 +57,18 @@
     <style>
       /* podgląd -nowe: "falka" w hero zamiast bloba (#2) — fala wzięta z bilz.ag (wave-mid.png) */
       .hero-wave {
-        top: 0;
+        top: auto;
+        bottom: 0;
         left: 0;
-        width: 62%;
-        height: 100%;
+        right: 0;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2560 / 2329;
+        max-height: 100%;
         background-image: url('assets/images/wave-mid.png');
         background-repeat: no-repeat;
         background-position: left bottom;
-        background-size: 115% auto;
+        background-size: 100% auto;
         border-radius: 0;
         transform: none;
         opacity: 0.95;
