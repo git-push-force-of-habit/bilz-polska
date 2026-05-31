@@ -229,7 +229,9 @@
                 opacity: 0.5;
                 box-shadow: none;
                 cursor: default;
-                pointer-events: none;
+                /* pointer-events: auto — wyłączony przycisk połyka kliknięcie
+                   i zasłania kafelek pod spodem (nie przepuszcza klików) */
+                pointer-events: auto;
             }
             .cases-nav[disabled]:hover {
                 background: var(--color-dark);
