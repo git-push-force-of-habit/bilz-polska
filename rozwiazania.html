@@ -59,17 +59,42 @@
         mix-blend-mode: multiply;
       }
       /* pasek wybranych realizacji (jak "Selected customer projects" na bilz.ag) */
-      .cases-strip-wrap { overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
+      .cases-strip-outer { position: relative; }
+      .cases-strip-wrap {
+        overflow-x: auto;
+        padding-bottom: 8px;
+        -webkit-overflow-scrolling: touch;
+        cursor: grab;
+        scroll-behavior: smooth;
+        scrollbar-width: none;        /* Firefox */
+        -ms-overflow-style: none;     /* IE/Edge */
+      }
+      .cases-strip-wrap::-webkit-scrollbar { display: none; }  /* Chrome/Safari */
+      .cases-strip-wrap.dragging { cursor: grabbing; scroll-behavior: auto; }
+      .cases-strip-wrap.dragging a { pointer-events: none; }
       .cases-strip { display: flex; gap: 24px; padding: 4px max(30px, calc((100% - 1280px) / 2 + 30px)); }
-      .case-card { flex: 0 0 300px; display: flex; flex-direction: column; color: var(--color-text); }
+      .case-card { flex: 0 0 300px; display: flex; flex-direction: column; color: var(--color-text); -webkit-user-select: none; user-select: none; }
       .case-card:hover { color: var(--color-text); }
       .case-card-img { aspect-ratio: 4 / 3; border-radius: 8px; overflow: hidden; background: #f5f5f5; }
-      .case-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+      .case-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; pointer-events: none; }
       .case-card:hover .case-card-img img { transform: scale(1.04); }
       .case-card-cat { font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-green); margin-top: 16px; }
       .case-card-title { font-size: 1.05rem; line-height: 1.2; margin: 8px 0 6px; }
       .case-card-desc { font-size: 0.85rem; color: var(--color-gray); line-height: 1.5; }
       .case-card-more { margin-top: 12px; font-family: var(--font-heading); font-size: 0.8rem; color: var(--color-green); }
+      /* strzałki nawigacji */
+      .cases-nav {
+        position: absolute; top: 105px; transform: translateY(-50%); z-index: 5;
+        width: 46px; height: 46px; border-radius: 50%; border: none;
+        background: var(--color-green); color: #fff; font-size: 1.7rem; line-height: 1;
+        cursor: pointer; box-shadow: 0 3px 12px rgba(0,0,0,.22);
+        display: flex; align-items: center; justify-content: center; transition: background .2s ease;
+      }
+      .cases-nav:hover { background: var(--color-green-dark); }
+      .cases-nav[disabled] { opacity: 0; pointer-events: none; }
+      .cases-nav-prev { left: 18px; }
+      .cases-nav-next { right: 18px; }
+      @media (max-width: 767px) { .cases-nav { display: none; } }
     </style>
 </head>
 <body>
@@ -291,7 +316,10 @@
       <p>Wybrane wdrożenia Bilz z&nbsp;różnych branż &mdash; od&nbsp;przemysłu po laboratoria badawcze.</p>
     </div>
   </div>
-  <div class="cases-strip-wrap">
+  <div class="cases-strip-outer">
+    <button class="cases-nav cases-nav-prev" type="button" aria-label="Przewiń w lewo">&lsaquo;</button>
+    <button class="cases-nav cases-nav-next" type="button" aria-label="Przewiń w prawo">&rsaquo;</button>
+    <div class="cases-strip-wrap" id="casesStrip">
     <div class="cases-strip">
 
       <a class="case-card" href="realizacje/dynamiczna-technologia-prasowania.html">
@@ -415,6 +443,7 @@
       </a>
 
     </div>
+    </div>
   </div>
 </section>
 
@@ -503,6 +532,62 @@ function toggleSubmenu(e, el) {
   var sub = li.querySelector('.submenu');
   if (sub) sub.classList.toggle('open');
 }
+
+/* Pasek realizacji: przeciąganie myszką / palcem, kółko, strzałki */
+(function () {
+  var wrap = document.getElementById('casesStrip');
+  if (!wrap) return;
+  var down = false, startX = 0, startScroll = 0, moved = false;
+
+  wrap.addEventListener('pointerdown', function (e) {
+    if (e.button && e.button !== 0) return;
+    down = true; moved = false;
+    startX = e.clientX; startScroll = wrap.scrollLeft;
+    wrap.classList.add('dragging');
+    try { wrap.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+  wrap.addEventListener('pointermove', function (e) {
+    if (!down) return;
+    var dx = e.clientX - startX;
+    if (Math.abs(dx) > 4) moved = true;
+    wrap.scrollLeft = startScroll - dx;
+  });
+  function end() {
+    if (!down) return;
+    down = false;
+    wrap.classList.remove('dragging');
+    setTimeout(function () { moved = false; }, 0);
+  }
+  wrap.addEventListener('pointerup', end);
+  wrap.addEventListener('pointercancel', end);
+  wrap.addEventListener('pointerleave', end);
+  // nie nawiguj jeśli to było przeciągnięcie
+  wrap.addEventListener('click', function (e) {
+    if (moved) { e.preventDefault(); e.stopPropagation(); }
+  }, true);
+  // kółko myszy (pionowe) -> przewijanie poziome
+  wrap.addEventListener('wheel', function (e) {
+    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+      wrap.scrollLeft += e.deltaY;
+      e.preventDefault();
+    }
+  }, { passive: false });
+
+  // strzałki
+  function stepPx() { return Math.min(wrap.clientWidth * 0.85, 360); }
+  var prev = document.querySelector('.cases-nav-prev');
+  var next = document.querySelector('.cases-nav-next');
+  if (prev) prev.addEventListener('click', function () { wrap.scrollBy({ left: -stepPx(), behavior: 'smooth' }); setTimeout(updateArrows, 450); });
+  if (next) next.addEventListener('click', function () { wrap.scrollBy({ left: stepPx(), behavior: 'smooth' }); setTimeout(updateArrows, 450); });
+  function updateArrows() {
+    var maxScroll = wrap.scrollWidth - wrap.clientWidth - 2;
+    if (prev) prev.disabled = wrap.scrollLeft <= 2;
+    if (next) next.disabled = wrap.scrollLeft >= maxScroll;
+  }
+  wrap.addEventListener('scroll', updateArrows, { passive: true });
+  window.addEventListener('resize', updateArrows);
+  updateArrows();
+})();
 </script>
 
 </body>
