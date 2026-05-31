@@ -574,7 +574,12 @@ function toggleSubmenu(e, el) {
   }, true);
 
   // strzałki
-  function stepPx() { return Math.max(wrap.clientWidth * 0.9, 320); }
+  function stepPx() {
+    // stały skok = 2 kafelki (szerokość kafelka + odstęp), niezależny od szerokości ekranu
+    var card = wrap.querySelector('.case-card');
+    var cw = card ? card.getBoundingClientRect().width + 24 : 324;
+    return cw * 2;
+  }
   if (prev) prev.addEventListener('click', function () { wrap.scrollBy({ left: -stepPx(), behavior: 'smooth' }); setTimeout(updateArrows, 450); });
   if (next) next.addEventListener('click', function () { wrap.scrollBy({ left: stepPx(), behavior: 'smooth' }); setTimeout(updateArrows, 450); });
   function updateArrows() {
