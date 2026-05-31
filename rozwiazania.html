@@ -224,8 +224,15 @@
                 background: var(--color-green-dark);
             }
             .cases-nav[disabled] {
-                opacity: 0;
+                background: var(--color-dark);
+                color: transparent; /* ukryj ikonkę strzałki */
+                opacity: 0.5;
+                box-shadow: none;
+                cursor: default;
                 pointer-events: none;
+            }
+            .cases-nav[disabled]:hover {
+                background: var(--color-dark);
             }
             .cases-nav-prev {
                 left: 18px;
