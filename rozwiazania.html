@@ -533,50 +533,48 @@ function toggleSubmenu(e, el) {
   if (sub) sub.classList.toggle('open');
 }
 
-/* Pasek realizacji: przeciąganie myszką / palcem, kółko, strzałki */
+/* Pasek realizacji: strzałki + przeciąganie myszką (bez przejmowania kółka myszy) */
 (function () {
   var wrap = document.getElementById('casesStrip');
   if (!wrap) return;
-  var down = false, startX = 0, startScroll = 0, moved = false;
+  var prev = document.querySelector('.cases-nav-prev');
+  var next = document.querySelector('.cases-nav-next');
+
+  // zablokuj natywne przeciąganie linków/obrazków, żeby działał drag-scroll
+  wrap.addEventListener('dragstart', function (e) { e.preventDefault(); });
+
+  var down = false, startX = 0, startScroll = 0, moved = false, dragId = null;
 
   wrap.addEventListener('pointerdown', function (e) {
-    if (e.button && e.button !== 0) return;
-    down = true; moved = false;
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    down = true; moved = false; dragId = e.pointerId;
     startX = e.clientX; startScroll = wrap.scrollLeft;
-    wrap.classList.add('dragging');
-    try { wrap.setPointerCapture(e.pointerId); } catch (err) {}
   });
   wrap.addEventListener('pointermove', function (e) {
-    if (!down) return;
+    if (!down || e.pointerId !== dragId) return;
     var dx = e.clientX - startX;
-    if (Math.abs(dx) > 4) moved = true;
-    wrap.scrollLeft = startScroll - dx;
+    // dopiero powyżej progu uznajemy to za przeciąganie (czyste kliknięcie zostaje kliknięciem)
+    if (!moved && Math.abs(dx) > 6) {
+      moved = true;
+      wrap.classList.add('dragging');
+      try { wrap.setPointerCapture(dragId); } catch (err) {}
+    }
+    if (moved) { wrap.scrollLeft = startScroll - dx; e.preventDefault(); }
   });
-  function end() {
+  function endDrag() {
     if (!down) return;
     down = false;
     wrap.classList.remove('dragging');
-    setTimeout(function () { moved = false; }, 0);
   }
-  wrap.addEventListener('pointerup', end);
-  wrap.addEventListener('pointercancel', end);
-  wrap.addEventListener('pointerleave', end);
-  // nie nawiguj jeśli to było przeciągnięcie
+  wrap.addEventListener('pointerup', endDrag);
+  wrap.addEventListener('pointercancel', endDrag);
+  // jeśli to było przeciąganie — nie nawiguj do kafelka
   wrap.addEventListener('click', function (e) {
-    if (moved) { e.preventDefault(); e.stopPropagation(); }
+    if (moved) { e.preventDefault(); e.stopPropagation(); moved = false; }
   }, true);
-  // kółko myszy (pionowe) -> przewijanie poziome
-  wrap.addEventListener('wheel', function (e) {
-    if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-      wrap.scrollLeft += e.deltaY;
-      e.preventDefault();
-    }
-  }, { passive: false });
 
   // strzałki
   function stepPx() { return Math.min(wrap.clientWidth * 0.85, 360); }
-  var prev = document.querySelector('.cases-nav-prev');
-  var next = document.querySelector('.cases-nav-next');
   if (prev) prev.addEventListener('click', function () { wrap.scrollBy({ left: -stepPx(), behavior: 'smooth' }); setTimeout(updateArrows, 450); });
   if (next) next.addEventListener('click', function () { wrap.scrollBy({ left: stepPx(), behavior: 'smooth' }); setTimeout(updateArrows, 450); });
   function updateArrows() {
