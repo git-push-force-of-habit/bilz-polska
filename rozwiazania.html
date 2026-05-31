@@ -58,6 +58,18 @@
       img[src*="wizualizacje/"] {
         mix-blend-mode: multiply;
       }
+      /* pasek wybranych realizacji (jak "Selected customer projects" na bilz.ag) */
+      .cases-strip-wrap { overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch; }
+      .cases-strip { display: flex; gap: 24px; padding: 4px max(30px, calc((100% - 1280px) / 2 + 30px)); }
+      .case-card { flex: 0 0 300px; display: flex; flex-direction: column; color: var(--color-text); }
+      .case-card:hover { color: var(--color-text); }
+      .case-card-img { aspect-ratio: 4 / 3; border-radius: 8px; overflow: hidden; background: #f5f5f5; }
+      .case-card-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+      .case-card:hover .case-card-img img { transform: scale(1.04); }
+      .case-card-cat { font-family: var(--font-heading); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-green); margin-top: 16px; }
+      .case-card-title { font-size: 1.05rem; line-height: 1.2; margin: 8px 0 6px; }
+      .case-card-desc { font-size: 0.85rem; color: var(--color-gray); line-height: 1.5; }
+      .case-card-more { margin-top: 12px; font-family: var(--font-heading); font-size: 0.8rem; color: var(--color-green); }
     </style>
 </head>
 <body>
@@ -266,6 +278,142 @@
         <img src="assets/images/wizualizacje/z2.png" alt="Tłumienie drgań w metrologii - maszyna pomiarowa współrzędnościowa na wibroizolatorach" width="600" height="338" loading="lazy">
         <img src="assets/images/applications/49.webp" class="foto-pelna" alt="Maszyna pomiarowa współrzędnościowa ZEISS posadowiona na wibroizolatorach Bilz - pełne ujęcie z czarną podstawą" width="600" height="800" loading="lazy">
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- WYBRANE REALIZACJE -->
+<section class="section section-gray" id="realizacje">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Wybrane realizacje</span>
+      <h2>Te rozwiązania już wdrożyliśmy</h2>
+      <p>Wybrane wdrożenia Bilz z&nbsp;różnych branż &mdash; od&nbsp;przemysłu po laboratoria badawcze.</p>
+    </div>
+  </div>
+  <div class="cases-strip-wrap">
+    <div class="cases-strip">
+
+      <a class="case-card" href="realizacje/dynamiczna-technologia-prasowania.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/dynamiczna-technologia-prasowania.jpg" alt="Prasa serwo-wrzecionowa Nidec SYS na wibroizolatorach FAEBI" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Budowa maszyn i&nbsp;urządzeń</span>
+        <h3 class="case-card-title">Solidna baza dla dynamicznej technologii prasowania</h3>
+        <p class="case-card-desc">Nidec SYS GmbH: prasy serwo-wrzecionowe</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/impulsy-link-trimming.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/impulsy-link-trimming.jpg" alt="Dynamic Wafer Stage Eitzenberger - odsprzężenie drgań" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Półprzewodniki</span>
+        <h3 class="case-card-title">Precyzja i&nbsp;odsprzężenie impulsów w&nbsp;link trimmingu</h3>
+        <p class="case-card-desc">Eitzenberger GmbH: Dynamic Wafer Stage EZ-GS0760</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/drgania-gruntu-1000x.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/drgania-gruntu-1000x.jpg" alt="Binnig and Rohrer Nanotechnology Center - izolacja drgań laboratoriów" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Nanotechnologia</span>
+        <h3 class="case-card-title">Drgania gruntu zredukowane 1000-krotnie</h3>
+        <p class="case-card-desc">Binnig and Rohrer Nanotechnology Center: izolacja akustyczna i&nbsp;drganiowa</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/ponad-90-procent-izolacji.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/ponad-90-procent-izolacji.jpg" alt="Boschert - gumowe miechy powietrzne do izolacji drgań" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Budowa maszyn i&nbsp;urządzeń</span>
+        <h3 class="case-card-title">Ponad 90% izolacji drgań</h3>
+        <p class="case-card-desc">Boschert: gumowe miechy powietrzne do skutecznej izolacji udarów i&nbsp;drgań</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/metrologia-optyczna.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/metrologia-optyczna.jpg" alt="Polytec - stół laboratoryjny do wibrometrów laserowych" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Metrologia przemysłowa</span>
+        <h3 class="case-card-title">Optymalna izolacja drgań w&nbsp;metrologii optycznej</h3>
+        <p class="case-card-desc">Polytec: stoły laboratoryjne do wibrometrów laserowych</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/izolacja-silniki-75-procent.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/izolacja-silniki-75-procent.jpg" alt="AVL - izolacja drgań hamowni silników" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Motoryzacja</span>
+        <h3 class="case-card-title">Ponad 75% skuteczności izolacji</h3>
+        <p class="case-card-desc">AVL: bezawaryjna praca hamowni silników</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/pomiar-polaryzacji.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/pomiar-polaryzacji.jpg" alt="Axometrics - odsprzężenie drgań dla systemów mikroskopowych" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Półprzewodniki</span>
+        <h3 class="case-card-title">Rozwiązania do pomiaru polaryzacji</h3>
+        <p class="case-card-desc">Axometrics: odsprzężenie drgań dla 5-osiowych systemów mikroskopowych</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/nie-drza-filizanki.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/nie-drza-filizanki.jpg" alt="Buja Metaal - izolacja u źródła dla prasy 500 ton" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Budowa maszyn i&nbsp;urządzeń</span>
+        <h3 class="case-card-title">Filiżanka z&nbsp;kawą już nie drży</h3>
+        <p class="case-card-desc">Buja Metaal: izolacja u&nbsp;źródła dla prasy 500&nbsp;t</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/dokladnosc-ponizej-1-mikrometra.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/dokladnosc-ponizej-1-mikrometra.jpg" alt="Hexagon - izolacja drgań ultradokładnych maszyn pomiarowych" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Metrologia przemysłowa</span>
+        <h3 class="case-card-title">Powtarzalna dokładność pomiaru poniżej 1&nbsp;µm</h3>
+        <p class="case-card-desc">Hexagon Manufacturing Intelligence: rozwiązania dla ultradokładnych maszyn pomiarowych</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/stopy-maszynowe-15-lat.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/stopy-maszynowe-15-lat.jpg" alt="BD Rowa - stopy maszynowe Bilz w automatach kompletujących" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Farmacja / technika medyczna</span>
+        <h3 class="case-card-title">Stopy maszynowe Bilz w&nbsp;użyciu od&nbsp;15 lat</h3>
+        <p class="case-card-desc">BD Rowa&trade;: rozwiązanie dla automatów kompletujących</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/szlifierka-uzebien.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/szlifierka-uzebien.jpg" alt="Izolacja odbiorcza szlifierki do uzębień - BiAir i fundament drgający" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Budownictwo / architektura</span>
+        <h3 class="case-card-title">Ekonomicznie i&nbsp;bezawaryjnie dzięki mocnej kombinacji</h3>
+        <p class="case-card-desc">Izolacja odbiorcza szlifierki do&nbsp;uzębień: BiAir&reg; i&nbsp;fundament drgający</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/prasa-23-tony.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/prasa-23-tony.jpg" alt="Izolacja u źródła prasy 23 t - FAEBI z izolacją fundamentu" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Budownictwo / architektura</span>
+        <h3 class="case-card-title">Tylko trzy tygodnie od&nbsp;projektu do&nbsp;uruchomienia</h3>
+        <p class="case-card-desc">Izolacja u&nbsp;źródła prasy 23&nbsp;t: FAEBI&reg; z&nbsp;izolacją fundamentu</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/fundament-1200-ton.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/fundament-1200-ton.jpg" alt="Blok fundamentowy 1200 ton - izolacja fundamentu w zakładzie motoryzacyjnym" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Budownictwo / architektura</span>
+        <h3 class="case-card-title">Blok fundamentowy 1200&nbsp;ton &mdash; obliczony i&nbsp;zainstalowany</h3>
+        <p class="case-card-desc">Zakład motoryzacyjny: izolacja fundamentu płytami izolacyjnymi</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/platformy-elastyczne.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/platformy-elastyczne.jpg" alt="Platformy z izolacją drgań do posadowienia maszyn" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Badania / laboratoria</span>
+        <h3 class="case-card-title">Na jednym piętrze? Ciasno? Elastycznie? Platforma!</h3>
+        <p class="case-card-desc">Platformy z&nbsp;izolacją drgań do&nbsp;posadowienia maszyn</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
+      <a class="case-card" href="realizacje/showroom-drga.html">
+        <div class="case-card-img"><img src="assets/images/realizacje/showroom-drga.jpg" alt="Bilginoglu - stoły laboratoryjne do izolacji drgań" width="300" height="225" loading="lazy"></div>
+        <span class="case-card-cat">Badania / laboratoria</span>
+        <h3 class="case-card-title">Gdy showroom drży&hellip;</h3>
+        <p class="case-card-desc">Bilgino&#287;lu: stoły laboratoryjne do&nbsp;optymalnej izolacji drgań</p>
+        <span class="case-card-more">Zobacz realizację &rarr;</span>
+      </a>
+
     </div>
   </div>
 </section>
