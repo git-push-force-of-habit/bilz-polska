@@ -1517,6 +1517,34 @@ h4 { font-size: 1rem; }
 .spec-chart img { width: 100%; height: auto; display: block; }
 .spec-chart figcaption { font-size: 0.82rem; color: var(--color-gray); margin-top: 12px; text-align: center; }
 
+.data-table-wrap { overflow-x: auto; margin-top: 8px; }
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  min-width: 560px;
+}
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--color-gray-light);
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.data-table thead th {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--color-dark);
+  border-bottom: 2px solid var(--color-gray-light);
+}
+.data-table tbody th {
+  font-weight: 700;
+  color: var(--color-dark);
+}
+.data-table tbody tr:hover { background: var(--color-green-bg); }
+.data-table td { color: var(--color-text); }
+
 /* ===== CONTACT PAGE ===== */
 .contact-page-grid {
   display: grid;
