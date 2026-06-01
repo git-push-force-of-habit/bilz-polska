@@ -117,7 +117,7 @@ h4 { font-size: 1rem; }
   /* frosted glass: brightness(<1) PRZYCIEMNIA tło pod paskiem (nigdy jaśniejszy niż tło),
      a półprzezroczysty ciemny tint (odcień turkusowy) + blur daje efekt matowego szkła.
      Nad białym tłem wychodzi ~#0F2530 (turkus) */
-  background: rgba(0, 26, 39, 0.85);
+  background: rgba(0, 26, 39, 0.95);
   -webkit-backdrop-filter: blur(12px) brightness(0.4) saturate(115%);
   backdrop-filter: blur(12px) brightness(0.4) saturate(115%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
