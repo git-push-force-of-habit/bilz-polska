@@ -1,3 +1,6 @@
+/* TEMP (faza 1, weryfikacja): Barlow z Google CDN. Faza 2: self-host woff2 + usun ten @import. */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
+
 @font-face {
   font-family: 'HalvarBreit';
   src: url('../fonts/Halvar-Breitschrift-Regular.woff2') format('woff2'),
@@ -51,9 +54,9 @@
   --color-gray: #5a5a5a;
   --color-gray-light: #d8d8d8;
   --color-white: #fff;
-  --font-heading: 'HalvarBreit', Arial, sans-serif;
-  --font-body: 'HalvarMittel', Arial, sans-serif;
-  --font-condensed: 'HalvarEng', Arial, sans-serif;
+  --font-heading: 'Barlow Semi Condensed', 'Arial Narrow', Arial, sans-serif;
+  --font-body: 'Barlow', Arial, sans-serif;
+  --font-condensed: 'Barlow Condensed', 'Arial Narrow', Arial, sans-serif;
   --max-width: 1280px;
   --header-height: 64px;
 }
