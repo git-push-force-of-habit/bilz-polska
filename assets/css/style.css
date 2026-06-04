@@ -1,5 +1,5 @@
 /* TEMP (faza 1, weryfikacja): Barlow z Google CDN. Faza 2: self-host woff2 + usun ten @import. */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
 
 @font-face {
   font-family: 'HalvarBreit';
@@ -82,7 +82,7 @@ body {
 }
 
 strong, b {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 img {
