@@ -1,5 +1,5 @@
 /* TEMP (faza 1, weryfikacja): Barlow z Google CDN. Faza 2: self-host woff2 + usun ten @import. */
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Barlow+Condensed:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700;800&display=swap');
 
 @font-face {
   font-family: 'HalvarBreit';
@@ -74,11 +74,15 @@ html {
 
 body {
   font-family: var(--font-body);
-  font-weight: 300;
+  font-weight: 400;
   color: var(--color-text);
   line-height: 1.6;
   background: var(--color-white);
   -webkit-font-smoothing: antialiased;
+}
+
+strong, b {
+  font-weight: 800;
 }
 
 img {
@@ -279,7 +283,7 @@ h4 { font-size: 1rem; }
 
 .mobile-nav .submenu a {
   font-size: 0.9rem;
-  font-weight: 300;
+  font-weight: 400;
   font-family: var(--font-body);
   padding: 10px 0;
 }
@@ -362,7 +366,7 @@ h4 { font-size: 1rem; }
 
 .hero p {
   font-family: var(--font-body);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.05rem;
   margin-bottom: 32px;
   line-height: 1.7;
