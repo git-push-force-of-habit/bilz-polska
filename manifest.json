@@ -1,0 +1,25 @@
+{
+  "name": "Bilz Polska - technologia antywibracyjna",
+  "short_name": "Bilz Polska",
+  "description": "Wibroizolatory, maty, stopy, kliny i stoły antywibracyjne. Oficjalny przedstawiciel Bilz Vibration Technology w Polsce.",
+  "lang": "pl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#002e3c",
+  "theme_color": "#002e3c",
+  "icons": [
+    {
+      "src": "/assets/icons/bilz-polska-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/icons/bilz-polska-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
